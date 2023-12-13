@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Weather App</title>
+    <title>er.shivam - Portfolio</title>
 </head>
-<body>
-    <div class="container">
-        <div id="weather-container">
-            <label for="cityInput">City:</label>
-            <input type="text" id="cityInput" placeholder="Enter city">
-            <button onclick="getWeather()">Get Weather</button>
 
-            <h2 id="city">City, Country</h2>
-            <div id="weather-info">
-                <img id="weather-icon" src="hjkl.jpg" alt="Weather Icon">
-                <p id="temperature">Temperature</p>
-                <p id="description">Description</p>
+<body>
+    <header>
+        <div class="container">
+            <img src="shivamimg.jpg" alt="er.shivam" class="profile-image">
+            <div class="intro">
+                <h1>Er.shivam</h1>
+                <p>Web Developer | Designer</p>
             </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>Welcome to my portfolio! I am a passionate web developer with a keen interest in creating beautiful and
+            functional websites.</p>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <img src="weather.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>The name of this project is dynamically weather checking website in which you enter city name and you got your desired result which you want to know.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <footer>
+        <p>Contact me at: mishrashivam50319@gmail.com</p>
+    </footer>
 </body>
+
 </html>
